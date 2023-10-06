@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+    <style>
+        legend{
+            text-align: center;
+            color: CD5C08;
+        }
+    </style>
+</head>
+<body bgcolor="F6FDC3">
+
+    <form action="message.html">
+
+        <fieldset> <legend> <h1>PERSONAL DETAILS</h1></legend>
+
+        <label for="fname">First Name</label>
+        <input type="text" required placeholder="SACHIN" id="fname" name="fname"> <br><br>
+
+
+        <label for="mname">Middle Name</label>
+        <input type="text" placeholder="RAMESH" id="mname" name="mname" ><br><br>
+
+
+        <label for="lname">Last Name</label> 
+        <input type="text" required placeholder="TENDULKAR" id="lname" name="lname" > <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" required id="dob" name="dob"> <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="abcd@tapacdemy.com" id="email" name="email"><br><br>
+
+        <label for="pnum">Phone Number</label>
+        <input type="text" id="pnum" name="pnum"><br><br>
+
+        <label for="resume">Resume</label>
+        <input type="file" id="resume" name="resume">
+
+  
+</fieldset>
+
+<fieldset><legend><h1>EDUCATIONAL DETAILS</h1></legend>
+
+<label for="dept">Department</label><br><br>
+
+<input type="radio" id="bsc" name="dept">
+<label for="bsc">BSc</label>
+
+<input type="radio" id="bba" name="dept">
+<label for="bba">BBA</label>
+
+<input type="radio" id="bcom" name="dept">
+<label for="bcom">BCom</label>
+
+<input type="radio" id="ba" name="dept">
+<label for="ba">BA</label><br><br>
+
+<label for="yog">YOG</label>
+<input list="yop" id="yog" name="yog">
+
+<datalist id="yop">
+    <option >2015</option>
+    <option >2016</option>
+    <option >2017</option>
+    <option >2018</option>
+    <option >2019</option>
+    <option >2020</option>
+    <option >2021</option>
+    <option >2022</option>
+    <option >2023</option>
+    <option >2024</option>
+    <option >2025</option>
+</datalist>
+
+<br><br>
+
+<label for="">Course</label><br><br>
+
+<input type="checkbox" name="html" id="html">
+<label for="html">HTML</label>
+
+<input type="checkbox" name="css" id="css">
+<label for="css">CSS</label>
+
+<input type="checkbox" name="javascript" id="javascript">
+<label for="javascript">JAVASCRIPT</label>
+
+<input type="checkbox" name="corejava" id="corejava">
+<label for="corejava">COREJAVA</label>
+
+<input type="checkbox" name="jdbc" id="jdbc">
+<label for="jdbc">JDBC</label>
+</fieldset>
+<br><br><br><br>
+
+<center><input type="submit"></center><br><br>
+
+</form>  
+</body>
+</html>
